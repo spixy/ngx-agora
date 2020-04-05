@@ -21,7 +21,7 @@ export enum ClientEvent {
   PeerLeave = 'peer-leave',
   RemoteAudioMuted = 'mute-audio',
   RemoteAudioUnmuted = 'unmute-audio',
-  RemoveVideoMuted = 'mute-video',
+  RemoteVideoMuted = 'mute-video',
   RemoteVideoUnmuted = 'unmute-video',
   /** Occurs when encryption or decryption fails during publishing or subscribing to a stream.
    *
